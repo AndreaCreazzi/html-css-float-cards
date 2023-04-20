@@ -7,11 +7,11 @@
 
 /*generics*/
 body{
-    text-align: center; 
+    font-family: 'Fredoka', sans-serif;
+    
 }
 
 h1{
-    font-family: 'Fredoka', sans-serif;
     margin: 3rem auto;
     font-size: 2.5rem;
     color: #e53371;   
@@ -21,13 +21,48 @@ h3{
     margin-bottom: 4rem;
 }
 
-/*utility*/
-.container{
-    max-width: 1300px;
-    margin: 0 auto;
+img{
+    height: 120px;
+    float: left; 
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #4d9fc1;
 }
 
 
+/*utility*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.column{
+    float: left; 
+    background-color: black;
+    color: white;
+    width: calc(100% / 3 - 0.4rem);
+    margin-left: 0.4rem;
+    margin-top: 1rem;        
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.profile{
+    padding-top: 10px;
+}
+
+.text-center{
+    text-align: center;
+}
 
 
-
+.profile p{
+    margin: 10px auto;
+}
